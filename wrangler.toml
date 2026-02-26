@@ -1,0 +1,21 @@
+name = "pocket-option-proxy"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+# Workers.dev এ ডিপ্লয় হবে
+workers_dev = true
+
+# রুট (যদি আপনার কাস্টম ডোমেইন থাকে)
+# routes = [
+#   { pattern = "api.yourdomain.com/*", zone_id = "your-zone-id" }
+# ]
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# এডভান্সড কনফিগারেশন
+[env.production.usage_model]
+bundled = "⚠️"
+
+# Node.js compatibility
+node_compat = true
