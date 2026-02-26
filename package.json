@@ -1,0 +1,16 @@
+{
+  "name": "pocket-option-proxy",
+  "version": "1.0.0",
+  "description": "Pocket Option API Proxy using Cloudflare Workers",
+  "main": "src/worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": ["cloudflare", "workers", "proxy"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
